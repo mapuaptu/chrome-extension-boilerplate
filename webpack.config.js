@@ -6,8 +6,10 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
   mode: 'production',
   entry: {
-    background: './src/background.js',
-    popup: './src/popup.js',
+    background: './src/js/background.js',
+    popup: './src/js/popup.js',
+    options: './src/js/options.js',
+    content: './src/js/content.js',
   },
   output: {
     path: path.resolve(__dirname, 'build'),

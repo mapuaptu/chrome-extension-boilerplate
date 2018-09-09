@@ -8,13 +8,33 @@
     "48": "icon48.png",
     "16": "icon16.png"
   },
-  "browser_action": {
+  "page_action": {
     "default_icon": "icon16.png",
     "default_popup": "popup.html"
   },
   "background": {
     "scripts": ["background.js"],
-    "persistent": false
+    "persistent": true
   },
-  "permissions": ["activeTab"]
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.ligastavok.ru/bets/live/*",
+        "https://www.marathonbet.com/en/live/popular/*",
+        "http://sports.williamhill.com/bet/ru/betlive/all/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "options_page": "options.html",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "notifications",
+    "contextMenus",
+    "https://www.ligastavok.ru/bets/live/*",
+    "https://www.marathonbet.com/en/live/popular/*",
+    "http://sports.williamhill.com/bet/ru/betlive/all/*"
+  ]
 }
