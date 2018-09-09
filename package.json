@@ -4,7 +4,9 @@
   "description": "extension-bigbet",
   "main": "index.js",
   "scripts": {
-    "start": ""
+    "start": "webpack --watch",
+    "build": "webpack",
+    "lint": "prettier --write **/*.js"
   },
   "keywords": [
     "extension-bigbet"
