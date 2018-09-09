@@ -1,0 +1,22 @@
+{
+  "name": "extension-bigbet",
+  "version": "0.0.1",
+  "description": "extension-bigbet",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "keywords": [
+    "extension-bigbet"
+  ],
+  "author": "Alex Nikishkin <mapuaptu@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "4.5.2",
+    "file-loader": "2.0.0",
+    "imagemin-jpegtran": "5.0.2",
+    "imagemin-optipng": "5.2.1",
+    "imagemin-webpack": "3.0.0",
+    "webpack": "4.17.2"
+  }
+}
