@@ -1,15 +1,14 @@
 {
-  "name": "extension-bigbet",
+  "name": "chrome-extension-boilerplate",
   "version": "0.0.1",
-  "description": "extension-bigbet",
-  "main": "index.js",
+  "description": "cheome-extension-boilerplate",
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack",
     "lint": "prettier --write **/*.js"
   },
   "keywords": [
-    "extension-bigbet"
+    "chrome-extension-boilerplate"
   ],
   "author": "Alex Nikishkin <mapuaptu@gmail.com>",
   "license": "MIT",

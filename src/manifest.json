@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "extension-bigbet",
-  "version": "1.0",
-  "description": "extension-bigbet",
+  "name": "chrome-extension-boilerplate",
+  "version": "0.1",
+  "description": "chrome-extension-boilerplate",
   "icons": {
     "128": "icon128.png",
     "48": "icon48.png",
@@ -18,11 +18,7 @@
   },
   "content_scripts": [
     {
-      "matches": [
-        "https://www.ligastavok.ru/bets/live/*",
-        "https://www.marathonbet.com/en/live/popular/*",
-        "http://sports.williamhill.com/bet/ru/betlive/all/*"
-      ],
+      "matches": ["https://www.google.ru"],
       "js": ["content.js"]
     }
   ],
@@ -33,8 +29,6 @@
     "storage",
     "notifications",
     "contextMenus",
-    "https://www.ligastavok.ru/bets/live/*",
-    "https://www.marathonbet.com/en/live/popular/*",
-    "http://sports.williamhill.com/bet/ru/betlive/all/*"
+    "https://www.google.ru"
   ]
 }
