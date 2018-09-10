@@ -1,6 +1,6 @@
-### Тестовое задание для `bigbet.pro`
+## Тестовое задание для `bigbet.pro`
 
-Работает только на `https://www.ligastavok.ru/bets/live`;
+Работает только на `https://www.ligastavok.ru/bets/live`.
 
 ### Установка
 
