@@ -106,8 +106,6 @@ const handlerOfferClick = offer => {
 
         alertBets(oldValue, checkNewValue());
       }
-
-      console.log(oldValue, checkNewValue());
     }, 500);
   }, 15000);
 };
